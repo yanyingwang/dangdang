@@ -13,7 +13,7 @@ a = Dangdang.new(
 ```
 
 ## Orders List:
-["dangdang_orders_list_get" method params reference]("http://open.dangdang.com/index.php?c=documentCenterG4&f=show&page_id=132")
+["dangdang_orders_list_get" method params reference](http://open.dangdang.com/index.php?c=documentCenterG4&f=show&page_id=132)
 
 Example:
 ```ruby
