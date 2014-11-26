@@ -1,5 +1,4 @@
 require 'digest'
-require 'pry'
 require 'cgi'
 require 'eat'
 require 'active_support/core_ext/hash'
