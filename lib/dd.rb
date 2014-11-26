@@ -5,7 +5,7 @@ require 'active_support/core_ext/hash'
 
 class Dangdang
   def self.version
-    '0.0.1'
+    '0.1.0'
   end
   def initialize(option = {})
     @option = option

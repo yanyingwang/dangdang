@@ -14,4 +14,4 @@ end
 gem 'digest'
 gem 'eat'
 # Specify your gem's dependencies in dangdang.gemspec
-#gemspec
+gemspec
