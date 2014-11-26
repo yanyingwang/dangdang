@@ -5,7 +5,7 @@ Dangdang Open Platform
 # Order
 ## Initialize
 ```ruby
-a = Dangdang.new(
+a = Dangdang::Order.new(
   app_key: "1111111111",
   app_secret: "AAAAAAAA11111111BBBBBBBB22222222",
   session_key: "AAAAAAAA11111111AAAAAAAABBBBBBBBCCCCCCCCDDDDDDDDYYYYYYYYZZZZZZZZ"
