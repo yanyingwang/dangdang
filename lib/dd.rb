@@ -4,6 +4,9 @@ require 'eat'
 require 'active_support/core_ext/hash'
 
 class Dangdang
+  def self.version
+    '0.0.1'
+  end
   def initialize(option = {})
     @option = option
     @api_uri_front = "http://api.open.dangdang.com/openapi/rest?"

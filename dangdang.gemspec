@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'dangdang'
-  spec.version       = Yhd::VERSION
+  spec.version       = Dangdang.version
   spec.authors       = ['yanyingwang']
   spec.email         = ['yanyingwangwang@gmail.com']
   spec.summary       = 'Ruby SDK for open.dangdang.com'
