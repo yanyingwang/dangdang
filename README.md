@@ -1,4 +1,4 @@
-Dangdang Open Platform
+Ruby SDK for Dangdang Open Platform(当当开放平台)
 ==============
 
 
