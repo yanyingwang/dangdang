@@ -33,8 +33,9 @@ module Dangdang
 
     def dangdang_orders_list_get(params_app = {})
       @method = __callee__.to_s.split("_").join(".")
-      params_app[:osd] = CGI.escape(params_app[:osd]) if params_app[:osd]
-      params_app[:oed] = CGI.escape(params_app[:oed]) if params_app[:oed]
+      [:lastModifyTime_start, :lastModifyTime_end, :osd, :oed, :sgsd, :sged].each do |v|
+        params_app[v] = CGI.escape(params_app[v]) if params_app[v]
+      end
       @params_app = params_app
       Hash.from_xml(eat(get_api_uri))
     end
