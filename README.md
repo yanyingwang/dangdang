@@ -15,15 +15,18 @@ a = Dangdang::Order.new(
 ## Orders List:
 ["dangdang_orders_list_get" method params reference](http://open.dangdang.com/index.php?c=documentCenterG4&f=show&page_id=132)
 
+
 Example:
 ```ruby
+# You can only fetch orders paid from Dangdang Open Platform when using 'osd oed' submitted params.
 a.dangdang_orders_list_get(
   osd: "2014-11-25 00:00:00",
   oed: "2014-11-26 16:30:00"
 )
-```
-```ruby
+
 a.dangdang_orders_list_get(os: "100")
+
+a.dangdang_order_list_get(o: "11111111111")
 ```
 
 
