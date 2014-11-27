@@ -18,7 +18,7 @@ a = Dangdang::Order.new(
 
 Example:
 ```ruby
-# You can only fetch orders paid from Dangdang Open Platform when using 'osd oed' submitted params.
+# You can only fetch orders paid from Dangdang Open Platform in current time when using 'osd oed' submitted params.
 a.dangdang_orders_list_get(
   osd: "2014-11-25 00:00:00",
   oed: "2014-11-26 16:30:00"
