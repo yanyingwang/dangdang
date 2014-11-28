@@ -1,8 +1,9 @@
-# Ruby SDK for Dangdang Open Platform(当当开放平台)
+Ruby SDK for Dangdang Open Platform(当当开放平台)
+=========
 
 
-## Order
-### Initialize
+# Order
+## Initialize
 ```ruby
 a = Dangdang::Order.new(
   app_key: "1111111111",
@@ -11,7 +12,7 @@ a = Dangdang::Order.new(
 )
 ```
 
-### Orders List:
+## Orders List:
 ["dangdang_orders_list_get" method params reference](http://open.dangdang.com/index.php?c=documentCenterG4&f=show&page_id=132)
 
 
@@ -29,7 +30,7 @@ a.dangdang_order_list_get(o: "11111111111")
 ```
 
 
-### Order Details:
+## Order Details:
 ["dangdang_order_details_get" method params reference](http://open.dangdang.com/index.php?c=documentCenterG4&f=show&page_id=133)
 
 Example:
