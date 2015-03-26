@@ -1,4 +1,4 @@
-Ruby SDK for Dangdang Open Platform(当当开放平台)
+[Dangdang Open Platform(当当开放平台)](http://open.dangdang.com) API in Ruby
 =========
 
 
