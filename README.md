@@ -1,6 +1,6 @@
-[Dangdang Open Platform(当当开放平台)](http://open.dangdang.com) API in Ruby
+# Dangdang
 =========
-
+[Dangdang Open Platform(当当开放平台)](http://open.dangdang.com) API in Ruby
 
 # Order
 ## Initialize
