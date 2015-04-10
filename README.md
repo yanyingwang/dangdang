@@ -2,7 +2,28 @@
 =========
 [Dangdang Open Platform(当当开放平台)](http://open.dangdang.com) API in Ruby
 
-# Order
+
+[![Gem Version](https://badge.fury.io/rb/weidian_open.svg)](http://badge.fury.io/rb/weidian_open)
+
+# Installation
+Add this line to your application's Gemfile:
+```ruby
+gem 'dangdang'
+```
+
+And then execute:
+```shell
+$ bundle
+```
+
+Or install it yourself as:
+```shell
+$ gem install dangdang
+```
+
+
+
+# Usage
 ## Initialize
 ```ruby
 a = Dangdang::Order.new(
