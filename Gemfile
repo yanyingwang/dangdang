@@ -1,5 +1,8 @@
 source 'http://ruby.taobao.org'
 
+gem 'digest'
+gem 'eat'
+
 group :development do
   gem 'pry'
   gem 'pry-rescue'
@@ -11,7 +14,5 @@ group :test do
   gem 'webmock'
 end
 
-gem 'digest'
-gem 'eat'
 # Specify your gem's dependencies in dangdang.gemspec
 gemspec
