@@ -21,6 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 1.6'
   spec.add_development_dependency 'rake', '~> 10.0'
 
-  spec.add_dependency 'digest'
-  spec.add_dependency 'eat'
+  spec.add_dependency 'digest', '~> 0.0.1'
+  spec.add_dependency 'eat', '0.1.8'
 end
